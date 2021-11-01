@@ -8,7 +8,7 @@ Sample test case https://resulta-task.herokuapp.com/getstats/NFL/2020-01-08/2020
 
 https://codepen.io/arunpk95/pen/ExvwEmZ
 
-Please visit above link to check/test the webclient for the service
+Please visit the above link to check/test the WebClient for the service
 
 
 # Try it locally
@@ -17,4 +17,13 @@ Please visit above link to check/test the webclient for the service
 <pre>pip install -r requirements.txt</pre>
 3. run __init__.py to start the local serve
 
-Fetch the GET request in the browser from local server: http://127.0.0.1:5000/getstats/NFL/2020-01-08/2020-01-13
+Fetch the GET request in the browser from the local server: http://127.0.0.1:5000/getstats/NFL/2020-01-08/2020-01-13
+
+# File structure of the application
+  flask-task/
+    config/
+        endPointsKey.py -- contains key and api information
+    helpers.py - functions to help with implementations
+    __init__.py - flask endpoints and main file
+
+  
