@@ -1,5 +1,9 @@
-The service is hosted in heroku client. The endpoint for the service is 
+The service is hosted in heroku client. The endpoint for the service is:
+
+
 https://resulta-task.herokuapp.com/getstats/<league_name>/\<yyyy-mm-dd\>/\<yyyy-mm-dd\>
+
+
 <i>Note: The difference between the start date and end date should be less than 7</i>
 
 Sample test case https://resulta-task.herokuapp.com/getstats/NFL/2020-01-08/2020-01-13
