@@ -19,11 +19,11 @@ Please visit the above link to check/test the WebClient for the service
 
 Fetch the GET request in the browser from the local server: http://127.0.0.1:5000/getstats/NFL/2020-01-08/2020-01-13
 
-# File structure of the application
-  flask-task/
-    config/
-        endPointsKey.py -- contains key and api information
-    helpers.py - functions to help with implementations
-    __init__.py - flask endpoints and main file
+# The file structure of the application
+flask-task/\
+&nbsp;&nbsp;&nbsp;config/\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endPointsKey.py -- contains key and API information\
+&nbsp;&nbsp;&nbsp;helpers.py - functions to help with implementations\
+&nbsp;&nbsp;&nbsp;__init__.py - flask endpoints and main file
 
   
